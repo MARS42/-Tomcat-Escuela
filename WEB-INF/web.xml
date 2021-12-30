@@ -1,0 +1,62 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<web-app version="3.0">
+	<servlet>
+		<servlet-name>alta</servlet-name>
+			<servlet-class>alta</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>altaProfesor</servlet-name>
+			<servlet-class>altaProfesor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>alta</servlet-name>
+		<url-pattern>/alta</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>altaProfesor</servlet-name>
+		<url-pattern>/altaProfesor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>actualizar</servlet-name>
+			<servlet-class>actualizar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>actualizar</servlet-name>
+		<url-pattern>/actualizar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>eliminar</servlet-name>
+			<servlet-class>eliminar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eliminar</servlet-name>
+		<url-pattern>/eliminar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>actualizarProfesor</servlet-name>
+			<servlet-class>actualizarProfesor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>actualizarProfesor</servlet-name>
+		<url-pattern>/actualizarProfesor</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>eliminarProfesor</servlet-name>
+			<servlet-class>eliminarProfesor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>eliminarProfesor</servlet-name>
+		<url-pattern>/eliminarProfesor</url-pattern>
+	</servlet-mapping>
+</web-app>
